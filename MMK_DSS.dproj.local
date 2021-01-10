@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.631,D:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas=D:\КАФЕДРА\СШ\Программа по СППР ММК\UCPM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.103,=C:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.452,=D:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.301,C:\КАФЕДРА\СШ\Программа по СППР ММК\UModelFuzzyExcel.pas=C:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.716,C:\КАФЕДРА\СШ\Программа по СППР ММК\UModelFuzzy.pas=C:\КАФЕДРА\СШ\Программа по СППР ММК\UModelFrizzy.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,=D:\КАФЕДРА\СШ\Программа по СППР ММК\UModelDepend.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.548,C:\КАФЕДРА\СШ\Программа по СППР ММК\UAntFuzzy.pas=C:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.314,=C:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.110,=C:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.296,C:\КАФЕДРА\СШ\Программа по СППР ММК\Unit1.pas=C:\КАФЕДРА\СШ\Программа по СППР ММК\UModelFrizzy.pas</Transaction>
+  </Transactions>
+</BorlandProject>

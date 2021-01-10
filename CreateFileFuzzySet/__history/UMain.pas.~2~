@@ -1,0 +1,79 @@
+unit UMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+f:TextFile;
+KolPerson,KolTask,KolTaskPerson,NomPerson,NomTask,NomTask1:Longword;
+TypePerson,n,i:Byte;
+ArrNomTask:array of Byte;
+TypeTask:array of Longword;
+st:string;
+begin
+KolPerson:=35;
+KolTask:=15;
+AssignFile(f,'TestFuzzySet35Persom.txt');
+rewrite(f);
+st:=IntToStr(KolTask);
+Writeln(f,st);
+st:=IntToStr(KolPerson);
+Writeln(f,st);
+SetLength(TypeTask,KolTask);
+for i := 0 to KolTask-1 do
+  TypeTask[i]:=random(6000)+2000;
+for NomPerson := 0 to KolPerson-1 do
+  begin
+  TypePerson:=Random(3);
+  case TypePerson of
+    0:KolTaskPerson:=random(4)+1;
+    1:KolTaskPerson:=random(6)+2;
+    2:KolTaskPerson:=random(7)+5;
+  end;
+  SetLength(ArrNomTask,KolTaskPerson);
+  for NomTask := 0 to KolTaskPerson-1 do
+    begin
+    ArrNomTask[NomTask]:=Maxint;
+    end;
+  for NomTask := 0 to KolTaskPerson-1 do
+    begin
+    repeat
+    n:=random(KolTask);
+    NomTask1:=0;
+    while (NomTask1<KolTaskPerson-1) and (ArrNomTask[NomTask1]<>n) do
+      inc(NomTask1);
+    until (NomTask1<KolTaskPerson-1) and (ArrNomTask[NomTask1]<>n);
+    ArrNomTask[NomTask]:=n;
+    end;
+  for NomTask := 0 to KolTaskPerson-1 do
+    begin
+    st:=IntToStr(NomPerson);
+    Writeln(f,st);
+
+    End;
+  end;
+CloseFile(f);
+end;
+
+end.

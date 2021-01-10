@@ -1,0 +1,482 @@
+System Test
+60
+Element 1
+0
+Element 2
+0
+Element 3
+0
+0,067651195892606
+0
+Element 1
+1
+Element 2
+0
+Element 3
+0
+0,124520755207023
+300
+Element 1
+1
+Element 2
+1
+Element 3
+0
+0,285816995673839
+850
+Element 1
+0
+Element 2
+0
+Element 3
+1
+0,11480912725475
+180
+Element 1
+1
+Element 2
+0
+Element 3
+1
+0,211321012759557
+480
+Element 1
+0
+Element 2
+1
+Element 3
+1
+0,263525544583571
+730
+Element 1
+1
+Element 2
+1
+Element 3
+1
+0,485052768024677
+1030
+Element 1
+2
+Element 2
+1
+Element 3
+1
+0,532885526832704
+1330
+Element 1
+1
+Element 2
+0
+Element 3
+2
+0,227755579808761
+660
+Element 1
+1
+Element 2
+1
+Element 3
+2
+0,522775624518717
+1210
+Element 1
+2
+Element 2
+1
+Element 3
+2
+0,574328366831997
+1510
+Element 1
+3
+Element 2
+1
+Element 3
+2
+0,614487751537839
+1810
+Element 1
+1
+Element 2
+1
+Element 3
+3
+0,552572982610631
+1390
+Element 1
+2
+Element 2
+1
+Element 3
+3
+0,607064147167189
+1690
+Element 1
+3
+Element 2
+1
+Element 3
+3
+0,649512551312169
+1990
+Element 1
+4
+Element 2
+1
+Element 3
+3
+0,68305625267247
+2290
+Element 1
+1
+Element 2
+1
+Element 3
+4
+0,576951706621806
+1570
+Element 1
+2
+Element 2
+1
+Element 3
+4
+0,633846942864054
+1870
+Element 1
+3
+Element 2
+1
+Element 3
+4
+0,678168109452967
+2170
+Element 1
+4
+Element 2
+1
+Element 3
+4
+0,71319171059757
+2470
+Element 1
+3
+Element 2
+2
+Element 3
+4
+0,74032160623214
+2720
+Element 1
+4
+Element 2
+2
+Element 3
+4
+0,778555088895194
+3020
+Element 1
+5
+Element 2
+2
+Element 3
+4
+0,807724122518644
+3320
+Element 1
+2
+Element 2
+1
+Element 3
+5
+0,655610585950735
+2050
+Element 1
+3
+Element 2
+1
+Element 3
+5
+0,70145355533713
+2350
+Element 1
+4
+Element 2
+1
+Element 3
+5
+0,737679719913651
+2650
+Element 1
+3
+Element 2
+2
+Element 3
+5
+0,765741142271221
+2900
+Element 1
+4
+Element 2
+2
+Element 3
+5
+0,805287402222242
+3200
+Element 1
+5
+Element 2
+2
+Element 3
+5
+0,835457978006794
+3500
+Element 1
+3
+Element 2
+1
+Element 3
+6
+0,71986237981115
+2530
+Element 1
+4
+Element 2
+1
+Element 3
+6
+0,757039257517545
+2830
+Element 1
+3
+Element 2
+2
+Element 3
+6
+0,785837118937604
+3080
+Element 1
+4
+Element 2
+2
+Element 3
+6
+0,826421224021069
+3380
+Element 1
+5
+Element 2
+2
+Element 3
+6
+0,857383591121913
+3680
+Element 1
+6
+Element 2
+2
+Element 3
+6
+0,879337873300418
+3980
+Element 1
+5
+Element 2
+3
+Element 3
+6
+0,896524055706454
+4230
+Element 1
+6
+Element 2
+3
+Element 3
+6
+0,91948057400539
+4530
+Element 1
+4
+Element 2
+1
+Element 3
+7
+0,771619741062409
+3010
+Element 1
+4
+Element 2
+2
+Element 3
+7
+0,842337995758216
+3560
+Element 1
+5
+Element 2
+2
+Element 3
+7
+0,873896694263992
+3860
+Element 1
+6
+Element 2
+2
+Element 3
+7
+0,896273813233144
+4160
+Element 1
+5
+Element 2
+3
+Element 3
+7
+0,913790999411154
+4410
+Element 1
+6
+Element 2
+3
+Element 3
+7
+0,937189657445884
+4710
+Element 1
+7
+Element 2
+3
+Element 3
+7
+0,951589495709667
+5010
+Element 1
+5
+Element 2
+2
+Element 3
+8
+0,885342113814998
+4040
+Element 1
+6
+Element 2
+2
+Element 3
+8
+0,90801230577164
+4340
+Element 1
+5
+Element 2
+3
+Element 3
+8
+0,925758914427703
+4590
+Element 1
+6
+Element 2
+3
+Element 3
+8
+0,949464024540689
+4890
+Element 1
+7
+Element 2
+3
+Element 3
+8
+0,964052457396347
+5190
+Element 1
+7
+Element 2
+4
+Element 3
+8
+0,980023419086618
+5740
+Element 1
+6
+Element 2
+2
+Element 3
+9
+0,914910691186506
+4520
+Element 1
+6
+Element 2
+3
+Element 3
+9
+0,95667732852038
+5070
+Element 1
+7
+Element 2
+3
+Element 3
+9
+0,971376593169614
+5370
+Element 1
+8
+Element 2
+3
+Element 3
+9
+0,977607311716164
+5670
+Element 1
+7
+Element 2
+4
+Element 3
+9
+0,987468890053786
+5920
+Element 1
+8
+Element 2
+4
+Element 3
+9
+0,993802829712887
+6220
+Element 1
+7
+Element 2
+3
+Element 3
+10
+0,973965728307058
+5550
+Element 1
+8
+Element 2
+3
+Element 3
+10
+0,980213054390205
+5850
+Element 1
+7
+Element 2
+4
+Element 3
+10
+0,990100918062644
+6100
+Element 1
+8
+Element 2
+4
+Element 3
+10
+0,996451740386867
+6400

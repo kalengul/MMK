@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.608,=C:\Users\alurt\OneDrive\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.403,C:\КАФЕДРА\СШ\Программа по СППР ММК\CreateFileFuzzySet\UMain.dfm=C:\Users\alurt\OneDrive\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.491,C:\КАФЕДРА\СШ\Программа по СППР ММК\CreateFileFuzzySet\PCreateFile.dproj=C:\Users\alurt\OneDrive\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.403,C:\КАФЕДРА\СШ\Программа по СППР ММК\CreateFileFuzzySet\UMain.pas=C:\Users\alurt\OneDrive\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

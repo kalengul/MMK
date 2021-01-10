@@ -1,0 +1,110 @@
+unit UMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+f:TextFile;
+KolPerson,KolTask,KolTaskPerson,NomPerson,NomTask,NomTask1:Longword;
+TypePerson,n,i:Byte;
+ArrNomTask:array of Byte;
+TypeTask:array of Longword;
+FP,ZN:Array of Double;
+st:string;
+begin
+KolPerson:=35;
+KolTask:=15;
+AssignFile(f,'TestFuzzySet35Persom.txt');
+rewrite(f);
+st:=IntToStr(KolTask);
+Writeln(f,st);
+st:=IntToStr(KolPerson);
+Writeln(f,st);
+SetLength(TypeTask,KolTask);
+for i := 0 to KolTask-1 do
+  TypeTask[i]:=random(600)+200;
+for NomPerson := 0 to KolPerson-1 do
+  begin
+  TypePerson:=Random(3);
+  case TypePerson of
+    0:KolTaskPerson:=random(4)+1;
+    1:KolTaskPerson:=random(6)+2;
+    2:KolTaskPerson:=random(7)+5;
+  end;
+  SetLength(ArrNomTask,KolTaskPerson);
+  for NomTask := 0 to KolTaskPerson-1 do
+    begin
+    ArrNomTask[NomTask]:=255;
+    end;
+  for NomTask := 0 to KolTaskPerson-1 do
+    begin
+    repeat
+    n:=random(KolTask);
+    NomTask1:=0;
+    while (NomTask1<KolTaskPerson-1) and (ArrNomTask[NomTask1]<>n) do
+      inc(NomTask1);
+    until not ((NomTask1<KolTaskPerson-1) and (ArrNomTask[NomTask1]<>n));
+    ArrNomTask[NomTask]:=n;
+    end;
+  for NomTask := 0 to KolTaskPerson-1 do
+    begin
+    st:=IntToStr(NomPerson);
+    Writeln(f,st);
+    st:=IntToStr(ArrNomTask[NomTask]);
+    Writeln(f,st);
+    n:=random(3)+3;
+    SetLength(FP,n);
+    SetLength(ZN,n);
+    FP[0]:=0;
+    case TypePerson of
+      0:Zn[0]:=TypeTask[ArrNomTask[NomTask]]/(Random(20)+1);
+      1:Zn[0]:=TypeTask[ArrNomTask[NomTask]]/(Random(10)+1);
+      2:Zn[0]:=TypeTask[ArrNomTask[NomTask]]/(Random(5)+1);
+    end;
+
+    for i := 1 to n-1 do
+      begin
+      FP[i]:=FP[i-1]+Random*(1-FP[i-1]);
+      if FP[i]>1 then FP[i]:=1;
+      case TypePerson of
+        0:Zn[i]:=Zn[i-1]+TypeTask[ArrNomTask[NomTask]]/(Random(50)+1);
+        1:Zn[i]:=Zn[i-1]+TypeTask[ArrNomTask[NomTask]]/(Random(30)+1);
+        2:Zn[i]:=Zn[i-1]+TypeTask[ArrNomTask[NomTask]]/(Random(15)+1);
+      end;
+      end;
+    FP[n-1]:=1;
+    st:='';
+    for i := 0 to n-1 do
+      st:=st+FloatToStr(Zn[0])+';';
+    Writeln(f,st);
+    st:='';
+    for i := 0 to n-1 do
+      st:=st+FloatToStr(FP[0])+';';
+    Writeln(f,st);
+    End;
+  end;
+CloseFile(f);
+end;
+
+end.

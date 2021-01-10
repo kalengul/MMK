@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020.02.25 16:22:47.332,=C:\Users\Юрий\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020.02.25 16:28:30.722,D:\КАФЕДРА\СШ\Программа по СППР ММК\TestFuzzySetJoin\UMain.dfm=C:\Users\Юрий\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020.02.25 16:28:30.722,D:\КАФЕДРА\СШ\Программа по СППР ММК\TestFuzzySetJoin\UMain.pas=C:\Users\Юрий\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020.02.25 16:28:38.465,D:\КАФЕДРА\СШ\Программа по СППР ММК\TestFuzzySetJoin\JoinFuzzySet.dproj=C:\Users\Юрий\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
